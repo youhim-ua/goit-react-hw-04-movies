@@ -1,0 +1,78 @@
+main {
+  margin-top: 20px;
+}
+
+main button {
+  cursor: pointer;
+  background-color: rgba(92, 89, 89, 0.664);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+
+main button:hover {
+  background-color: rgba(240, 64, 64, 0.719);
+}
+
+.backButton {
+  margin-bottom: 20px;
+}
+
+.filmInfo {
+  display: flex;
+}
+
+.poster {
+  margin-right: 30px;
+}
+
+.filmInfo h1,
+h2,
+h3,
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.genresList {
+  display: flex;
+  list-style: none;
+}
+
+.genresListItem {
+  margin-right: 10px;
+}
+
+.moreInfoList {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.moreInfoList > li {
+  margin-right: 15px;
+  padding: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(41, 241, 101, 0.664);
+}
+
+.moreInfoList > li:hover {
+  background-color: rgba(24, 187, 251, 0.733);
+}
+
+.moreInfoList > li > a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+}
